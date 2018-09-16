@@ -1,0 +1,124 @@
+.border {
+  width: 420px;
+  height: 420px;
+  padding: 5px;
+  background-color: #baa;
+  border-radius: 10px;
+  position: relative;
+}
+.board .cell, .tile {
+  user-select: none;
+  cursor: default;
+}
+.tile {
+  width: 90px;
+  height: 90px;
+  margin: 7px;
+  line-height: 90px;
+  display: inline-block;
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 7px;
+  color: #766;
+  background-color: #dcb;
+}
+.tile0 {
+  background-color: #dcb;
+}
+
+.tile2 {
+  background-color: #eee;
+}
+
+.tile4 {
+  background-color: #eec;
+}
+
+.tile8 {
+  color: #ffe;
+  background-color: #fb8;
+}
+
+.tile16 {
+  color: #ffe;
+  background-color: #f96;
+}
+
+.tile32 {
+  color: #ffe;
+  background-color: #f75;
+}
+
+.tile64 {
+  color: #ffe;
+  background-color: #f53;
+}
+
+.tile128 {
+  color: #ffe;
+  background-color: #ec7;
+  font-size: 45px;
+}
+
+.tile256 {
+  color: #ffe;
+  background-color: #ec6;
+  font-size: 45px;
+}
+
+.tile512 {
+  color: #ffe;
+  background-color: #ec5;
+  font-size: 45px;
+}
+
+.tile1024 {
+  color: #fff;
+  background-color: #ec3;
+  font-size: 35px;
+}
+
+.tile2048 {
+  color: #fff;
+  background-color: #ec2;
+  font-size: 35px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  font-size: 55px;
+  font-weight: bolder;
+  background-color: rgba(221, 221, 221, 0.5);
+  border-radius: 7px;
+}
+
+.addButton {
+  width: 120px;
+  height: 60px;
+  margin-top: 30px;
+  background-color: #ffac2d;
+  border-color: black;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.refreshButton {
+  width: 100px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: #ffac2d;
+  border-color: black;
+  border-radius: 10px;
+  font-size: 15px;
+}
