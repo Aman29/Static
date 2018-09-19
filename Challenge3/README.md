@@ -1,6 +1,6 @@
 # 2048
 
-> A Vue.js project. Link for [2048] (http://dusty-cow.surge.sh/) demo.
+> A Vue.js project. Link for [game](http://dusty-cow.surge.sh/).
 
 ## Build Setup
 
