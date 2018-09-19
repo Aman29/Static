@@ -14,7 +14,7 @@ git init
 git config user.name "Aman29"
 git config user.email "29aman92@gmail.com"
 
-git remote add upstream "https://$GH_TOKEN@github.com/Aman29/Static/Challenge3.git"
+git remote add upstream "https://$GH_TOKEN@github.com/Aman29/Static.git"
 git fetch upstream
 git reset upstream/gh-pages
 
